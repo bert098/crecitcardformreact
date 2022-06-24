@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+input {
+  margin-top: 1%;
+  margin-left: 1%;
+  font-family: Montserrat, sans-serif;
+  padding: 0.5%;
+}
+span {
+  font-size: "200px";
+}
+
+button {
+  font-family: Montserrat, sans-serif;
+  transition-duration: 0.7s;
+  margin-top: 2%;
+  height: 3em;
+  width: 7em;
+  color: black;
+  background-color:  #D3D3D3;
+  border-radius: 7em;
+  border: 10px;
+}
+
+button:hover {
+  background-color: #ccd5fc;
+  color: black;
+  border-radius: 7em;
+}
+button:disabled {
+  background-color: grey;
+  color: black;
+  border-radius: 7em;
+}
+.aParent div {
+  float: left;
+  clear: none; 
+}
